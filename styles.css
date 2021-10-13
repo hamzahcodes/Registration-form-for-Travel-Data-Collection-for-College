@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.submitMsg {
+    color: rgb(9, 53, 9);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 30px;
+    /* background-color: rgb(173, 143, 201); */
+}
+h1, p {
+    text-align: center;
+    color: rgb(16, 11, 65);
+    font-size: 38px;
+}
+
+p {
+    font-size: large;
+}
+input, textarea {
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    margin: 1%;
+    margin-left: 60px;
+    padding: 8px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    margin-left: 60px;
+    width: 20%;
+    padding: 6px;
+    background-color: aqua;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
